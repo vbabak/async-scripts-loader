@@ -1,4 +1,9 @@
 # async-scripts-loader
+
+[![NPM Version](https://img.shields.io/npm/v/async-scripts-loader.svg?style=flat-square)](https://www.npmjs.com/package/async-scripts-loader)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![NPM Downloads](https://img.shields.io/npm/dt/async-scripts-loader.svg?style=flat-square)](https://www.npmjs.com/package/async-scripts-loader)
+
 `async-scripts-loader` package loads bunch of js files in async way and handles when all the given files are loaded with `onload` and `onerror` states for each given script.
 Package is bundled as UMD and compatible with browser and npm.
 It returns a `Promise` from [Promise.all()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all).

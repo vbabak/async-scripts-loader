@@ -1,6 +1,6 @@
 {
   "name": "async-scripts-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "async-scripts-loader package loads bunch of js files in async way and handles when all the given files are loaded. It returns Promise. Handled \"onload\" and \"onerror\" states.",
   "main": "dist/async-scripts-loader.js",
   "module": "src/index.js",
