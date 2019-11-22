@@ -8,5 +8,6 @@ module.exports = {
     filename: 'async-scripts-loader.js',
     library: "loadScriptAsync",
     libraryTarget: 'umd',
+    globalObject: 'this'
   },
 };
